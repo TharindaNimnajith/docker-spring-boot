@@ -10,4 +10,5 @@ RUN ./mvnw dependency:resolve
 
 COPY src ./src
 
-CMD ["./mvnw", "spring-boot:run"]
+#CMD ["./mvnw", "spring-boot:run"]
+CMD ["./mvnw", "spring-boot:run", "-Dspring-boot.run.profiles=mysql"]
