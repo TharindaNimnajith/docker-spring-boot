@@ -7,11 +7,11 @@ build/*
 .project
 .factorypath
 .attach_pid*
-.idea
-*.iml
+#.idea
+#*.iml
 /target
 .sts4-cache/
-.vscode
+#.vscode
 _site/
-*.css
-!petclinic.css
+#*.css
+#!petclinic.css
